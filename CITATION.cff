@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this portal, please cite the specific method paper for the tool you use and cite this repository when appropriate."
+title: "Microbiome Toolkit"
+type: software
+authors:
+  - family-names: Li
+    given-names: Junhua
+repository-code: "https://github.com/ljhwahaha/microbiome-toolkit"
+url: "https://github.com/ljhwahaha/microbiome-toolkit"
+license: GPL-3.0-only
+references:
+  - type: article
+    title: "A signature-protein-based approach for accurate and efficient profiling of the human gut virome"
+    authors:
+      - family-names: Yang
+        given-names: Fangming
+      - family-names: Xiong
+        given-names: Liwen
+      - family-names: Li
+        given-names: Min
+      - family-names: Li
+        given-names: Junhua
+    journal: "Cell Reports Methods"
+    year: 2026
+    doi: "10.1016/j.crmeth.2025.101250"
+  - type: article
+    title: "High-resolution phage-host assignment through key proteins using large language models"
+    authors:
+      - family-names: Du
+        given-names: Zhihua
+      - family-names: Li
+        given-names: Min
+      - family-names: Lin
+        given-names: Kaihuang
+      - family-names: Li
+        given-names: Junhua
+    journal: "Nature Communications"
+    year: 2026
+    volume: "17"
+    doi: "10.1038/s41467-026-70613-x"
+  - type: article
+    title: "MetaPGN: a pipeline for construction and graphical visualization of annotated pangenome networks"
+    authors:
+      - family-names: Peng
+        given-names: Ye
+      - family-names: Tang
+        given-names: Shanmei
+      - family-names: Wang
+        given-names: Dan
+      - family-names: Li
+        given-names: Junhua
+    journal: "GigaScience"
+    year: 2018
+    volume: "7"
+    issue: "11"
+    doi: "10.1093/gigascience/giy121"
