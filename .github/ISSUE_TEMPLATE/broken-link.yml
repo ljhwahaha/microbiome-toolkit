@@ -1,0 +1,26 @@
+name: Broken link
+description: Report an outdated DOI, repository link, or documentation link.
+title: "[Broken link]: "
+labels: ["documentation"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Broken link
+      description: Paste the link that no longer works.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Where did you find it?
+      description: Point to the README section, docs page, or citation file where the link appears.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Suggested replacement
+      description: If you know the current correct link, paste it here.
+    validations:
+      required: false
